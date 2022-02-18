@@ -180,3 +180,76 @@ article nav ul li{
 .container-aside aside button:hover{
     opacity: 0.9;
 }
+.info{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.info img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+}
+.info p{
+    font-size: 26px;
+}
+/*footer*/
+.container-footer{
+    width:100%;
+    padding: 40px 0;
+    background:#f7f7f7;
+    margin-top:40px;
+}
+.container-footer footer{
+    max-width:1200px;
+    margin:auto;
+}
+.container-footer footer .logo-footer{
+    text-align:center;
+}
+.container-footer footer .logo-footer img{
+    width:100px;
+}
+.container-footer footer .redes-sociales{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.container-footer footer .redes-sociales .icon-redes-footer{
+    font-size: 20px;
+    margin:20px;
+    background:#efefef;
+    width:50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color:#a2a2a2;
+}
+.container-footer footer .redes-sociales .fa-facebook:hover{
+    background:#41579a;
+    color:#fff;
+    transition: 300ms;
+}
+.container-footer footer .redes-sociales .fa-instagram:hover{
+    background:linear-gradient(to top right,#fcde30, #e9712a, #d23138, #ae4198, #754da1, #5443a8);
+    color:#fff;
+    transition: 300ms;
+}
+.container-footer footer .redes-sociales .fa-twitter-square:hover{
+    background:turquoise;
+    color:#fff;
+    transition: 300ms;
+}
+.container-footer footer .redes-sociales .fa-envelope:hover{
+    background: #fb5e00;
+    color:#fff;
+}
+.container-footer footer hr{
+    margin-top: 20px;
+    border:none;
+    height:2px;
+    background: #a8a8a8;
+}
